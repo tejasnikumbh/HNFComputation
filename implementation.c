@@ -61,7 +61,7 @@ compute_HNF(size_t N,size_t M, int** A){
        		  		else if(A[r][i]<0)
          	  			sign = -1;
          			else
-         	  			sign =0;
+         	  			sign =1;
          			for(k=0;k<N;k++){
         	   			A[k][i] = A[k][i]*sign;
         	 		} 
@@ -134,8 +134,9 @@ is_all_zero(int r,int c, size_t N, size_t M, int** A){
 
 void generate_matrix(size_t N,size_t M, int** matrix){
 
-	matrix[0][0] = 9;  matrix[0][1] = -36;  matrix[0][2] = 30;  
-  	matrix[1][0] = -36;  matrix[1][1] = 192; matrix[1][2] = -180;
-  	matrix[2][0] = 30;  matrix[2][1] = -180;  matrix[2][2] = 180; 
+	matrix[0][0] = 3;  matrix[0][1] = 3;  matrix[0][2] = 1; matrix[0][3] = 4;  
+  	matrix[1][0] = 0;  matrix[1][1] = 1; matrix[1][2] = 0 ; matrix[1][3] = 0;
+  	matrix[2][0] = 0;  matrix[2][1] = 0;  matrix[2][2] = 19; matrix[2][3] =16;
+  	matrix[3][0] = 0;  matrix[3][1] = 0;  matrix[3][2] = 0; matrix[3][3] =3;
 
 }  
