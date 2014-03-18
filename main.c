@@ -1,3 +1,11 @@
+/*=============================================================================
+
+This file is a coding sample for the GSoC application for FLINT. 
+
+No reproduction or plagiarism of the contents of this file is permitted 
+without the prior written permission of the author.
+
+=============================================================================*/
 
 /* ======================================================================== *
  * File : main.c 		                                            *
