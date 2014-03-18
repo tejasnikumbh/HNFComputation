@@ -52,10 +52,11 @@ without the prior written permission of the author.
 #include <math.h>
 #include "interface.h"
 #include "implementation.c"
+#include "test/test_HNF.c"
 
 /* Defining constants */
-#define ROWS 3
-#define COLS 3
+#define ROWS 4
+#define COLS 4
 
 /* The main program */
 main(){
@@ -74,20 +75,29 @@ main(){
   	generate_matrix(ROWS,COLS,matrix);
 
   	//Displaying the matrix before computing HNF
+	printf("\n ===== Test Matrix =====\n");
   	display_matrix(ROWS,COLS,matrix);
 
   	// Calling the compute_HNF program, passing it the pointer to the matrix
   	compute_HNF(ROWS,COLS,matrix); 
 
   	//Displaying the matrix after computing HNF
+	printf("\n ===== Hermite Normal Form =====\n");	
   	display_matrix(ROWS,COLS,matrix);
+
+	// Testing whether the matrix is in Hermite normal form or not.
+	printf("\n ===== Test Results =====");
+	int isHNF = test_HNF(ROWS,COLS,matrix);
+	if(isHNF == 1)
+		printf("\nGiven matrix is in HNF\n\n");
+	else
+		printf("\nGiven matrix is not in HNF\n\n");
 
 	// Deallocating or freeing memory for 2D array using free
 	for(i=0; i<ROWS;i++){
         	free(matrix[i]);
     	}
     	free(matrix);
-
 
 }
 
