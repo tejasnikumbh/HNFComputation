@@ -1,3 +1,17 @@
+/*=============================================================================
+
+This file is sample code for the FLINT GSoC proposal. No parts of this
+file may be copied and used without the author's permission. FLINT is a 
+Fast Library for Number Theory. I hope to contribute to FLINT via GSoC
+this year.
+
+=============================================================================*/
+/******************************************************************************
+
+Copyright (C) 2014 Tejas Nikumbh
+Special Thanks : Bill Hart
+
+******************************************************************************/
 
 /* ======================================================================== *
  * File : main.c 		                                            *
