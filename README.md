@@ -15,7 +15,7 @@ Curret code in the Repository
       type 'gcc compute_HNF.c -lm -o compute_HNF' to compile and run the example implementation.
   - Trying different matrices.
       The code is sufficiently modularised to try finding different HNF of different matrices.
-      Just change the matrix definition in the main program and define ROWS and COLS accordingly.
+      Just change the matrix definition in the generate_matrix method found in the implementations.h file in the root folder. Also, define rows and cols in the main program accordingly.
 
 * main.c
  - This is the main test program for the computation of HNF, which utilises interface.h and implementa
