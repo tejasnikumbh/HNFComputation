@@ -98,7 +98,7 @@ void generate_matrix(size_t N,size_t M, int** matrix)
 	*	       to 2D array containing the matrix		  *
 	* Returns    : void						  *
  	* ----------------------------------------------------------------*
-	* Fills in the entries of the matrix using specific integers	  *
+	* Fills in the entries of the matrix using random integers	  *
         * Pointer to the matrix is provided as a parameter		  *
  	* ----------------------------------------------------------------*
 

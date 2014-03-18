@@ -1,9 +1,20 @@
 /*=============================================================================
 
-This file is sample code for the FLINT GSoC proposal. No parts of this
-file may be copied and used without the author's permission. FLINT is a 
-Fast Library for Number Theory. I hope to contribute to FLINT via GSoC
-this year.
+This file is part of FLINT.
+
+FLINT is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+FLINT is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with FLINT; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
 =============================================================================*/
 /******************************************************************************
@@ -131,3 +142,12 @@ is_all_zero(int r,int c, size_t N, size_t M, int A[N][M]){
 	return allZero;
 
 }
+
+void generate_matrix(size_t N,size_t M, int** matrix){
+
+	matrix[0][0] = 3;  matrix[0][1] = 3;  matrix[0][2] = 1; matrix[0][3] = 4;  
+  	matrix[1][0] = 0;  matrix[1][1] = 1; matrix[1][2] = 0 ; matrix[1][3] = 0;
+  	matrix[2][0] = 0;  matrix[2][1] = 0;  matrix[2][2] = 19; matrix[2][3] =16;
+  	matrix[3][0] = 0;  matrix[3][1] = 0;  matrix[3][2] = 0; matrix[3][3] =3;
+
+}  
