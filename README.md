@@ -1,5 +1,5 @@
-flintCodeSamples
-================
+Naive implementation for HNF computation
+=========================================
 
 Coding samples for the flint project, in Matlab and C programming language.
 
@@ -8,11 +8,11 @@ this makes the coding process more productive for me.
 I used Octave to prototype the HNF algorithm first, and then implemented it 
 using C.
 
-Curret code in the Repository
+Current code in the Repository
 
 * C implementation of HNL using Euclidean Algorithm.
   - Compiling instructions
-      type 'gcc compute_HNF.c -lm -o compute_HNF' to compile and run the example implementation.
+      type "gcc compute_HNF.c -lm -o compute_HNF" to compile and run the example implementation.
   - Trying different matrices.
       The code is sufficiently modularised to try finding different HNF of different matrices.
       Just change the matrix definition in the main program and define ROWS and COLS accordingly.
