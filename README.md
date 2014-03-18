@@ -1,5 +1,5 @@
-flintCodeSamples
-================
+Implementation of Naive HNF Algorithm for Computing HNF
+========================================================
 
 Coding samples for the flint project, in Matlab and C programming language.
 
