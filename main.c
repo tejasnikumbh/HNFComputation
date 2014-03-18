@@ -51,7 +51,7 @@ without the prior written permission of the author.
 #include <stdlib.h>
 #include <math.h>
 #include "interface.h"
-#include "implementation.h"
+#include "implementation.c"
 
 /* Defining constants */
 #define ROWS 4
@@ -66,6 +66,7 @@ main(){
 	// Allocating memory for 2D array using malloc
   	int **matrix;
   	matrix = malloc(ROWS * sizeof(int *));
+        int i;
   	for (i = 0; i < ROWS; i++)
   		matrix[i] = malloc(COLS * sizeof(int));
 

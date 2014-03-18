@@ -23,7 +23,7 @@ Special Thanks : Bill Hart
  * functions can be found in the docs folder of the module		     *
  * ========================================================================= */
 
-extern void display_matrix(size_t N,size_t M,int matrix[N][M]); 
-extern void compute_HNF(size_t N,size_t M,int A[N][M]);
-extern int is_all_zero(int r,int c, size_t N, size_t M, int A[N][M]);
+extern void display_matrix(size_t N,size_t M,int** matrix); 
+extern void compute_HNF(size_t N,size_t M,int** A);
+extern int is_all_zero(int r,int c, size_t N, size_t M, int** A);
 extern void generate_matrix(size_t N,size_t M, int** matrix);

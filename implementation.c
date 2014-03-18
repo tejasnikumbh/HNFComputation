@@ -23,7 +23,7 @@ Special Thanks : Bill Hart
 
 
 void 
-display_matrix(size_t N,size_t M, int matrix[N][M]){
+display_matrix(size_t N,size_t M, int** matrix){
 
   	int i,j;
   	printf("\n");
@@ -39,7 +39,7 @@ display_matrix(size_t N,size_t M, int matrix[N][M]){
 
 
 void
-compute_HNF(size_t N,size_t M, int A[N][M]){
+compute_HNF(size_t N,size_t M, int** A){
 	// Setting the lower bound on the rank of A.
 	int c = 0;
 	int i,j,r,k; 
@@ -117,7 +117,7 @@ compute_HNF(size_t N,size_t M, int A[N][M]){
 
 
 int
-is_all_zero(int r,int c, size_t N, size_t M, int A[N][M]){
+is_all_zero(int r,int c, size_t N, size_t M, int** A){
 
 	int k;
 	int allZero = 1;
