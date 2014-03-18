@@ -37,3 +37,6 @@ Curret code in the Repository
 * Test Folder
   - The test folder contains the tests to verify whether a given matrix is in Hermite Normal Form or not. The tests are       based on the following definition of HNF for a non-singular matrix given on Page 2 of this reference         
     https://www.math.uwaterloo.ca/~wgilbert/Research/GilbertBricklaying.pdf
+
+* Research Folder
+  - This folder contains the research I did prior to GSoC about the various algorithms that need to be studied and implemented as a part of the project.
