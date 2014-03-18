@@ -54,8 +54,8 @@ without the prior written permission of the author.
 #include "implementation.c"
 
 /* Defining constants */
-#define ROWS 3
-#define COLS 3
+#define ROWS 4
+#define COLS 4
 
 /* The main program */
 main(){
