@@ -33,3 +33,6 @@ Curret code in the Repository
   - The Docs folder contains the documentation for all the algorithm functions descirbed in the interface
     and implementation files.
 
+* Test Folder
+  - The test folder contains the tests to verify whether a given matrix is in Hermite Normal Form or not. The tests are       based on the following definition of HNF for a non-singular matrix given on Page 2 of this reference         
+    https://www.math.uwaterloo.ca/~wgilbert/Research/GilbertBricklaying.pdf
