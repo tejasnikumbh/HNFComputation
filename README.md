@@ -12,7 +12,8 @@ Curret code in the Repository
 
 * C implementation of HNL using Euclidean Algorithm.
   - Compiling instructions
-      type 'gcc compute_HNF.c -lm -o compute_HNF' to compile and run the example implementation.
+      type 'gcc main.c -lm -o main' to compile the example implementation.
+      then type ./main to run the program
   - Trying different matrices.
       The code is sufficiently modularised to try finding different HNF of different matrices.
       Just change the matrix definition in the generate_matrix method found in the implementations.h file in the root folder. Also, define rows and cols in the main program accordingly.
