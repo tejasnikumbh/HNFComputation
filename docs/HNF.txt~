@@ -91,19 +91,3 @@ void generate_matrix(size_t N,size_t M, int** matrix)
         * Pointer to the matrix is provided as a parameter		  *
  	* ----------------------------------------------------------------*
 
-int test_HNF(size_t N, size_t M, int** A)
-
-	* Function   : test_HNF				  *
-	* Usage      : test_HNF(ROWS,COLS,matrix)		  *
- 	* Parameters : Value of number of rows and columns and pointer	  *		
-	*	       to 2D array containing the matrix		  *
-	* Returns    : 1 or 0 depending on HNF or not			  *
- 	* ----------------------------------------------------------------*
-	* This function performs the following three tests to determine   * 
-	* whether a matrix is HNF or not				  * 
-	* 1. Matrix is lower triangular					  *
-	* 2. Diagonal entries are positive 			  	  *
-	* 3. Lower triangular entries are less than corresponding diagonal*
-	*    element and are non negative				  * 
-	* ----------------------------------------------------------------*
-
