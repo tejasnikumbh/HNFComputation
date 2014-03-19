@@ -1,7 +1,7 @@
 Implementation of Naive HNF Algorithm for Computing HNF
 ========================================================
 
-Coding samples for the flint project, in Matlab and C programming language.
+Coding samples for the flint project, in the C programming language.
 
 I have a habit of prototyping first and then impleneting. I've observed that 
 this makes the coding process more productive for me.
@@ -16,11 +16,11 @@ Curret code in the Repository
       then type ./main to run the program
   - Trying different matrices.
       The code is sufficiently modularised to try finding different HNF of different matrices.
-      Just change the matrix definition in the generate_matrix method found in the implementations.h file in the root folder. Also, define rows and cols in the main program accordingly.
+      Just change the matrix definition in the generate_matrix method found in the implementations.c file in the root folder. Also, define rows and cols in the main program accordingly.
 
 * main.c
  - This is the main test program for the computation of HNF, which utilises interface.h and implementa
-   -tion.h.
+   -tion.c.
 
 * interface.h
   - The interface.h file contains a definition of all the algorithm related functions that we need to
