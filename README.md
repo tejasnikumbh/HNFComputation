@@ -26,7 +26,7 @@ Curret code in the Repository
   - The interface.h file contains a definition of all the algorithm related functions that we need to
     compute the HNF of a given matrix.
 
-* implementation.h
+* implementation.c
   - This file contains the implementations of the functions described in the interface and as used by 
     the main program.
 
