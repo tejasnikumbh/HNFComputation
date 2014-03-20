@@ -14,7 +14,7 @@ Special Thanks : Bill Hart
 ******************************************************************************/
 
 /* 									     *			
- * File : implementation.h						     *
+ * File : implementation.c						     *
  * ==========================================================================*
  * This file contains the implementation for the interface to the module     * 
  * involving computation of HNF using Naive Algorithm. The documentation for *
