@@ -4,11 +4,11 @@ test_HNF(size_t N, size_t M, int** A){
 	int i,j;
 	int isHNF=1;
 
-	//Check for lower triangular ness
 	for(i=0;i<N;i++){
 
 		for(j=0;j<M;j++){
-
+			
+			//Check for lower triangular ness
 			// Upper triangular entry
 			if(j>i){
 
