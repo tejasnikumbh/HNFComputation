@@ -40,3 +40,4 @@ Curret code in the Repository
 
 * Research Folder
   - This folder contains the research I did prior to GSoC about the various algorithms that need to be studied and implemented as a part of the project.
+
